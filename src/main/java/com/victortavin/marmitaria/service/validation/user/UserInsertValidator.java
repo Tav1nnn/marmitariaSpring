@@ -7,8 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import com.victortavin.marmitaria.controllers.exceptions.FieldMessage;
 import com.victortavin.marmitaria.dtos.user.UserInsertDto;
-import com.victortavin.marmitaria.entities.UserEntity;
-import com.victortavin.marmitaria.repositories.UserRepository;
+import com.victortavin.marmitaria.entities.user.UserEntity;
+import com.victortavin.marmitaria.repositories.user.UserRepository;
 
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;

@@ -7,8 +7,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.victortavin.marmitaria.dtos.user.UserBalanceDto;
-import com.victortavin.marmitaria.entities.user.UserEntity;
-import com.victortavin.marmitaria.repositories.user.UserRepository;
+import com.victortavin.marmitaria.entities.UserEntity;
+import com.victortavin.marmitaria.repositories.UserRepository;
 
 @Service
 public class FindAllPageBalanceService {

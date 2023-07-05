@@ -6,10 +6,10 @@ import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.victortavin.marmitaria.entities.role.RoleEntity;
-import com.victortavin.marmitaria.entities.user.UserEntity;
-import com.victortavin.marmitaria.repositories.role.RoleRepository;
-import com.victortavin.marmitaria.repositories.user.UserRepository;
+import com.victortavin.marmitaria.entities.RoleEntity;
+import com.victortavin.marmitaria.entities.UserEntity;
+import com.victortavin.marmitaria.repositories.RoleRepository;
+import com.victortavin.marmitaria.repositories.UserRepository;
 import com.victortavin.marmitaria.service.exceptions.ResourceNotFoundException;
 
 import jakarta.transaction.Transactional;

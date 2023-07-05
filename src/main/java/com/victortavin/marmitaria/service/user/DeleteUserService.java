@@ -6,7 +6,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import com.victortavin.marmitaria.dtos.user.UserDto;
-import com.victortavin.marmitaria.repositories.user.UserRepository;
+import com.victortavin.marmitaria.repositories.UserRepository;
 
 import jakarta.transaction.Transactional;
 

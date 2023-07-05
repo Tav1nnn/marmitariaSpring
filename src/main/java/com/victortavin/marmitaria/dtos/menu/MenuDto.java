@@ -3,7 +3,7 @@ package com.victortavin.marmitaria.dtos.menu;
 import java.io.Serializable;
 import java.util.Objects;
 
-import com.victortavin.marmitaria.entities.menu.MenuEntity;
+import com.victortavin.marmitaria.entities.MenuEntity;
 
 public class MenuDto implements Serializable {
 

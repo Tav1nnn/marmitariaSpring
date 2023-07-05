@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.time.Instant;
 import java.util.Objects;
 
-import com.victortavin.marmitaria.entities.message.MessageEntity;
+import com.victortavin.marmitaria.entities.MessageEntity;
 
 public class MessageDto implements Serializable{
 	

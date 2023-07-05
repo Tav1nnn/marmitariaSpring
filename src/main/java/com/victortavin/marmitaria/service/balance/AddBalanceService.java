@@ -5,9 +5,9 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
 
 import com.victortavin.marmitaria.dtos.balance.Add_BalanceDto;
-import com.victortavin.marmitaria.entities.balance.Add_BalanceEntity;
-import com.victortavin.marmitaria.entities.user.UserEntity;
-import com.victortavin.marmitaria.repositories.balance.AddBalanceRepository;
+import com.victortavin.marmitaria.entities.Add_BalanceEntity;
+import com.victortavin.marmitaria.entities.UserEntity;
+import com.victortavin.marmitaria.repositories.AddBalanceRepository;
 
 import jakarta.transaction.Transactional;
 

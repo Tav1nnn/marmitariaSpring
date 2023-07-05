@@ -9,10 +9,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.victortavin.marmitaria.dtos.token.TokenDto;
+import com.victortavin.marmitaria.dtos.TokenDto;
 import com.victortavin.marmitaria.dtos.user.UserLoginDto;
-import com.victortavin.marmitaria.entities.user.UserEntity;
-import com.victortavin.marmitaria.service.token.TokenService;
+import com.victortavin.marmitaria.entities.UserEntity;
+import com.victortavin.marmitaria.service.TokenService;
 
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.servlet.http.HttpServletRequest;

@@ -2,7 +2,7 @@ package com.victortavin.marmitaria.dtos.user;
 
 import java.io.Serializable;
 
-import com.victortavin.marmitaria.entities.user.UserEntity;
+import com.victortavin.marmitaria.entities.UserEntity;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;

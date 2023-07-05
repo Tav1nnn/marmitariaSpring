@@ -8,11 +8,11 @@ import org.springframework.stereotype.Service;
 import com.victortavin.marmitaria.dtos.demand.DemandDto;
 import com.victortavin.marmitaria.dtos.demand.DemandInsertDto;
 import com.victortavin.marmitaria.dtos.menu.MenuPedidoDto;
-import com.victortavin.marmitaria.entities.demand.DemandEntity;
-import com.victortavin.marmitaria.entities.menu.MenuEntity;
-import com.victortavin.marmitaria.entities.user.UserEntity;
-import com.victortavin.marmitaria.repositories.demand.DemandRepository;
-import com.victortavin.marmitaria.repositories.menu.MenuRepository;
+import com.victortavin.marmitaria.entities.DemandEntity;
+import com.victortavin.marmitaria.entities.MenuEntity;
+import com.victortavin.marmitaria.entities.UserEntity;
+import com.victortavin.marmitaria.repositories.DemandRepository;
+import com.victortavin.marmitaria.repositories.MenuRepository;
 
 @Service
 public class NewDemandService {

@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.victortavin.marmitaria.dtos.user.UserDto;
 import com.victortavin.marmitaria.dtos.user.UserUpdateDto;
-import com.victortavin.marmitaria.service.token.TokenService;
+import com.victortavin.marmitaria.service.TokenService;
 import com.victortavin.marmitaria.service.user.FindByEmailUserService;
 import com.victortavin.marmitaria.service.user.UpdateUserService;
 

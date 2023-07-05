@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import com.victortavin.marmitaria.dtos.balance.Add_BalanceDto;
+import com.victortavin.marmitaria.service.MessageService;
 import com.victortavin.marmitaria.service.balance.AddBalanceService;
-import com.victortavin.marmitaria.service.message.MessageService;
 
 import jakarta.validation.Valid;
 

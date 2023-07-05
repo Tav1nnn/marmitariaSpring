@@ -7,8 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import com.victortavin.marmitaria.controllers.exceptions.FieldMessage;
 import com.victortavin.marmitaria.dtos.menu.MenuInsertDto;
-import com.victortavin.marmitaria.entities.menu.MenuEntity;
-import com.victortavin.marmitaria.repositories.menu.MenuRepository;
+import com.victortavin.marmitaria.entities.MenuEntity;
+import com.victortavin.marmitaria.repositories.MenuRepository;
 
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;

@@ -3,8 +3,8 @@ package com.victortavin.marmitaria.dtos.balance;
 import java.io.Serializable;
 import java.util.Objects;
 
-import com.victortavin.marmitaria.entities.balance.Add_BalanceEntity;
-import com.victortavin.marmitaria.entities.user.UserEntity;
+import com.victortavin.marmitaria.entities.Add_BalanceEntity;
+import com.victortavin.marmitaria.entities.UserEntity;
 
 public class Add_BalanceDto implements Serializable{
 

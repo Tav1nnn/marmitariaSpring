@@ -6,9 +6,9 @@ import java.util.Objects;
 import java.util.Set;
 
 import com.victortavin.marmitaria.dtos.balance.Add_BalanceDto;
-import com.victortavin.marmitaria.entities.balance.BalanceEntity;
-import com.victortavin.marmitaria.entities.role.RoleEntity;
-import com.victortavin.marmitaria.entities.user.UserEntity;
+import com.victortavin.marmitaria.entities.BalanceEntity;
+import com.victortavin.marmitaria.entities.RoleEntity;
+import com.victortavin.marmitaria.entities.UserEntity;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;

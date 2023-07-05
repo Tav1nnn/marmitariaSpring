@@ -3,7 +3,7 @@ package com.victortavin.marmitaria.dtos.role;
 import java.io.Serializable;
 import java.util.Objects;
 
-import com.victortavin.marmitaria.entities.role.RoleEntity;
+import com.victortavin.marmitaria.entities.RoleEntity;
 
 
 public class RoleDto implements Serializable{

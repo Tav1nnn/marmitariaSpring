@@ -9,11 +9,11 @@ import org.springframework.stereotype.Service;
 import com.victortavin.marmitaria.dtos.balance.BalanceDto;
 import com.victortavin.marmitaria.dtos.user.UserDto;
 import com.victortavin.marmitaria.dtos.user.UserInsertDto;
-import com.victortavin.marmitaria.entities.BalanceEntity;
-import com.victortavin.marmitaria.entities.RoleEntity;
-import com.victortavin.marmitaria.entities.UserEntity;
-import com.victortavin.marmitaria.repositories.RoleRepository;
-import com.victortavin.marmitaria.repositories.UserRepository;
+import com.victortavin.marmitaria.entities.balance.BalanceEntity;
+import com.victortavin.marmitaria.entities.role.RoleEntity;
+import com.victortavin.marmitaria.entities.user.UserEntity;
+import com.victortavin.marmitaria.repositories.role.RoleRepository;
+import com.victortavin.marmitaria.repositories.user.UserRepository;
 import com.victortavin.marmitaria.service.balance.NewBalanceService;
 import com.victortavin.marmitaria.service.exceptions.ResourceNotFoundException;
 

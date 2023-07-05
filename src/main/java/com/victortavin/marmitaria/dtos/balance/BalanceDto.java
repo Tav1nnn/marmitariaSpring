@@ -2,7 +2,7 @@ package com.victortavin.marmitaria.dtos.balance;
 
 import java.io.Serializable;
 
-import com.victortavin.marmitaria.entities.BalanceEntity;
+import com.victortavin.marmitaria.entities.balance.BalanceEntity;
 
 public class BalanceDto implements Serializable{
 

@@ -13,9 +13,9 @@ import org.springframework.web.filter.OncePerRequestFilter;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.victortavin.marmitaria.controllers.exceptions.StandardError;
-import com.victortavin.marmitaria.entities.UserEntity;
-import com.victortavin.marmitaria.repositories.UserRepository;
-import com.victortavin.marmitaria.service.TokenService;
+import com.victortavin.marmitaria.entities.user.UserEntity;
+import com.victortavin.marmitaria.repositories.user.UserRepository;
+import com.victortavin.marmitaria.service.token.TokenService;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

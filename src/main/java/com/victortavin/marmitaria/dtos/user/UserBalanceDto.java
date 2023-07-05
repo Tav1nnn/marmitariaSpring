@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 import com.victortavin.marmitaria.dtos.balance.Add_BalanceDto;
-import com.victortavin.marmitaria.entities.UserEntity;
+import com.victortavin.marmitaria.entities.user.UserEntity;
 
 public class UserBalanceDto implements Serializable{
 

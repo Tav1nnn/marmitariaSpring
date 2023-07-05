@@ -6,8 +6,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.victortavin.marmitaria.entities.UserEntity;
-import com.victortavin.marmitaria.repositories.UserRepository;
+import com.victortavin.marmitaria.entities.user.UserEntity;
+import com.victortavin.marmitaria.repositories.user.UserRepository;
 
 @Service
 public class LoginUserService implements UserDetailsService{

@@ -2,7 +2,7 @@ package com.victortavin.marmitaria.dtos.menu;
 
 import java.util.Objects;
 
-import com.victortavin.marmitaria.entities.MenuEntity;
+import com.victortavin.marmitaria.entities.menu.MenuEntity;
 
 public class MenuPedidoDto {
 	private String name;

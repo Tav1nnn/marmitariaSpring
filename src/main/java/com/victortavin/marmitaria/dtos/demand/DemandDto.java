@@ -6,7 +6,7 @@ import java.util.Set;
 
 import com.victortavin.marmitaria.dtos.menu.MenuDto;
 import com.victortavin.marmitaria.dtos.user.UserDto;
-import com.victortavin.marmitaria.entities.DemandEntity;
+import com.victortavin.marmitaria.entities.demand.DemandEntity;
 
 public class DemandDto {
 	

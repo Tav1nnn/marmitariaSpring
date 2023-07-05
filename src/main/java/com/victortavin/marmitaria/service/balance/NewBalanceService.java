@@ -4,8 +4,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.victortavin.marmitaria.dtos.balance.BalanceDto;
-import com.victortavin.marmitaria.entities.BalanceEntity;
-import com.victortavin.marmitaria.repositories.BalanceRepository;
+import com.victortavin.marmitaria.entities.balance.BalanceEntity;
+import com.victortavin.marmitaria.repositories.balance.BalanceRepository;
 
 @Service
 public class NewBalanceService {
